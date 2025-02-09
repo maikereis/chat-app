@@ -1,0 +1,9 @@
+fastapi[standard]
+uvicorn
+streamlit
+websockets
+pandas
+langchain-core
+langchain-ollama
+isort
+black
