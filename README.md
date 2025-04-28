@@ -51,9 +51,11 @@ Running with Docker Compose
 ```bash
 docker-compose up -d
 ```
-This will:
-- Start **Ollama** and pull the `Qwen2.5-7B` model if needed.
-- Expose it on port `11434`.
+
+Pull the `Qwen2.5-7B` from Ollama library
+```bash
+docker exec -it ollama ollama pull qwen2.5:7b
+```
 
 Running the FastAPI WebSocket Server
 ```bash
