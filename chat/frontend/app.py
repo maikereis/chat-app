@@ -1,7 +1,7 @@
 import asyncio
 
 import streamlit as st
-import websockets.client as websockets
+import websockets
 
 ENDPOINT = "ws://localhost:8000/ws/"
 
